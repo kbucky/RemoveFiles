@@ -26,5 +26,5 @@ Does not backup files so be careful to not delete important files!!!
 - I used -IsValid thinking it checked if a path is a real path. Instead it checks for syntax errors only.
 ![example!](https://user-images.githubusercontent.com/87800373/128487491-4dcc7c2e-d31a-4360-b887-c7c986959e3f.png)
 ![Screenshot 2021-08-06 192545](https://user-images.githubusercontent.com/87800373/128489205-3303ca76-1653-4db6-bbac-0c80b67f547c.png)
-- Originally I had the comfirmation prompt and file deletion section not in the same function. I decided to combind them into one function because I couldn't work out how to make the y/n prompt actually do anything.
+- Originally I had the comfirmation prompt and file deletion section not in the same function. I decided to combine them into one function because I couldn't work out how to make the y/n prompt actually do anything.
 - At first the specific path was a path name written in the script. This was changed to a folder dialog as this seems more user friendly.
