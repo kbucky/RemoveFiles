@@ -19,7 +19,10 @@ If no is selected no files will be deleted and the script will stop running.
 ## Demonstration
 [![Demonstration](https://img.youtube.com/vi/TO-tLyT49AI/hqdefault.jpg)](https://www.youtube.com/watch?v=TO-tLyT49AI)
 
-### Known issues ran into during development
+### Known Issues
+Does not backup files so be careful to not delete important files!!!
+
+### Known issues during development
 - I used -IsValid thinking it checked if a path is a real path. Instead it checks for syntax errors only.
 ![example!](https://user-images.githubusercontent.com/87800373/128487491-4dcc7c2e-d31a-4360-b887-c7c986959e3f.png)
 ![Screenshot 2021-08-06 192545](https://user-images.githubusercontent.com/87800373/128489205-3303ca76-1653-4db6-bbac-0c80b67f547c.png)
