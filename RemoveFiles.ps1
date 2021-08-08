@@ -13,8 +13,8 @@ Function removefiles{
 #prompt for to comfirming file deletion
   $title = "Confirmation"
   $message = "Do you want to delete files in the specified path?"
-  $yes = New-Object System.Management.Automation.Host.ChoiceDescription "&Yes", "Select this options if you want to remove files"
-  $no = New-Object System.Management.Automation.Host.ChoiceDescription "&No", "Select this options if you don't want to remove files"
+  $yes = New-Object System.Management.Automation.Host.ChoiceDescription "&Yes", "Select this option if you want to remove files"
+  $no = New-Object System.Management.Automation.Host.ChoiceDescription "&No", "Select this option if you don't want to remove files"
   $options = [System.Management.Automation.Host.ChoiceDescription[]]($yes, $no)
   $result = $host.ui.PromptForChoice($title, $message, $options, 0)
 
